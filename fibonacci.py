@@ -1,5 +1,5 @@
 """
-Fibonacci number and series algorithms
+Fibonacci number and sequence algorithms
 """
 def fibonacci_next_number(n):
     if n == 0:
@@ -14,7 +14,7 @@ number = 7
 
 print(f"The next Fibonacci number after {number} is {fibonacci_next_number(number)}")
 
-def fibonacci_series(n):
+def fibonacci_sequence(n):
     series = []
     a = 1
     b = 2
@@ -29,4 +29,4 @@ def fibonacci_series(n):
 
     return series
 
-print("Fibonacci series: ", *fibonacci_series(10), sep=", ")
+print("Fibonacci sequence: ", fibonacci_sequence(10))
