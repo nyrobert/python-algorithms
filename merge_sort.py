@@ -19,10 +19,10 @@ def merge_sort(arr):
     left = arr[:mid]
     right = arr[mid:]
 
-    sortedLeft = merge_sort(left)
-    sortedRight = merge_sort(right)
+    sorted_left = merge_sort(left)
+    sorted_right = merge_sort(right)
 
-    return merge(sortedLeft, sortedRight)
+    return merge(sorted_left, sorted_right)
 
 def merge(left, right):
     result = []
