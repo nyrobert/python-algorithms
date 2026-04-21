@@ -1,5 +1,5 @@
 """
-Linear Sort
+Linear Search
 
 - searches through an array and returns the index of the value it searches for
 - Big-O:
